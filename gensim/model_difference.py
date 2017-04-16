@@ -21,6 +21,14 @@ def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, to
         Z[i][j] = [[`pos_1`, `pos_2`, ...], [`neg_1`, `neg_2`, ...]] and
         `pos_k` is word from intersection of `topic_i` and `topic_j` and
         `neg_l` is word from symmetric difference of `topic_i` and `topic_j`
+
+
+    Example:
+
+    >>> m1, m2 = LdaMulticore.load(path_1), LdaMulticore.load(path_2)
+    >>> mdiff, annotation = topic2topic_difference(m1, m2)
+    >>> print(mdiff) # get matrix with difference for each topic pair from `m1` and `m2`
+    >>> print(annotation) # get array with positive/negative words for each topic pair from `m1` and `m2`
     """
 
     distances = {"kulback_leibler": kullback_leibler,
