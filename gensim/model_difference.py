@@ -7,24 +7,18 @@ import numpy as np
 def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, topw=10, with_annotation=True):
     """
     Calculate difference topic2topic between two `LdaMulticore` models
-
     `m1` and `m2` are trained instances of `LdaMulticore`
     `distance` is function that will be applied to calculate difference between any topic pair.
     Available values: `kulback_leibler`, `hellinger` and `jaccard`
     `num_words` is quantity of most relevant words that used if distance == `jaccard` (also used for annotation)
     `topw` is max quantity for positive/negative words
-
     Returns a matrix Z with shape (m1.num_topics, m2.num_topics), where Z[i][j] - difference between topic_i and topic_j
-
     If `with_annotation` == True, additionally return array with shape (m1.num_topics, m2.num_topics, 2, None)
     where
         Z[i][j] = [[`pos_1`, `pos_2`, ...], [`neg_1`, `neg_2`, ...]] and
         `pos_k` is word from intersection of `topic_i` and `topic_j` and
         `neg_l` is word from symmetric difference of `topic_i` and `topic_j`
-
-
     Example:
-
     >>> m1, m2 = LdaMulticore.load(path_1), LdaMulticore.load(path_2)
     >>> mdiff, annotation = topic2topic_difference(m1, m2)
     >>> print(mdiff) # get matrix with difference for each topic pair from `m1` and `m2`
