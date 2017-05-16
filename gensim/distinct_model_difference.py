@@ -138,7 +138,7 @@ def pair_topics(topic_similarity_array, sorted_array, sort_flag=False):
     """
     topic_similarity_scores = []
 
-    for x in range(0, 25):
+    for x in range(0, len(topic_similarity_array)):
         most_similar_topic = sorted_array[x][0]
         pair = (x, most_similar_topic)
 
@@ -169,42 +169,7 @@ def match_topics_bijection(pair_list, sort_array, topic_similarity_array):
     match_topics = []
     included_topics = []
 
-    output = match_bijection_helper(pair_list, sort_array, included_topics,
-                                    match_topics, topic_similarity_array)
-    return output
-
-
-def match_bijection_helper(pair_list, sort_array, included_topics,
-                           match_topics, topic_similarity_array):
-    """
-
-    :param pair_list: 
-    :param sort_array: 
-    :param included_topics: 
-    :param match_topics: 
-    :param topic_similarity_array: 
-    :return: 
-    """
-
-    # return last element
-    if len(pair_list) == 1:
-        topic1 = pair_list[0][1][0]
-        topic2 = pair_list[0][1][1]
-
-        if topic2 in included_topics:
-            n = 0
-            while topic2 in included_topics:
-                n += 1
-                topic2 = sort_array[topic1][n]
-
-            pair = (topic1 + 1, topic2 + 1)
-            score = topic_similarity_array[topic1][topic2]
-            next_most_similar_pair = (score, pair)
-            return [next_most_similar_pair]
-        else:
-            return pair_list
-
-    else:
+    while len(pair_list) > 0:
         most_similar_pair = pair_list.pop(0)
         topic1 = most_similar_pair[1][0]
         topic2 = most_similar_pair[1][1]
@@ -221,18 +186,10 @@ def match_bijection_helper(pair_list, sort_array, included_topics,
             next_most_similar_pair = (score, pair)
             pair_list.append(next_most_similar_pair)
             pair_list.sort()
-            output = match_bijection_helper(pair_list, sort_array,
-                                            included_topics, match_topics,
-                                            topic_similarity_array)
-            return output
-
         else:
             included_topics.append(topic2)
-            recursion = match_bijection_helper(pair_list, sort_array,
-                                               included_topics, match_topics,
-                                               topic_similarity_array)
-            output = [most_similar_pair] + recursion
-            return output
+            match_topics.append(most_similar_pair)
+    return match_topics
 
 
 def bijection_score(bijections):
@@ -243,3 +200,4 @@ def bijection_score(bijections):
 
     score_average = total_score / len(bijections)
     return score_average
+
