@@ -37,6 +37,328 @@ into another. This process serves two goals:
    (new representation consumes less resources) and efficacy (marginal data
    trends are ignored, noise-reduction).
 
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim_dev import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
+
+as a stream of vectors. To continue, let's fire up gensim and use that corpus:
+
+>>> from gensim import corpora, models, similarities
+>>> if (os.path.exists("/tmp/deerwester.dict")):
+>>>    dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>>    corpus = corpora.MmCorpus('/tmp/deerwester.mm')
+>>>    print("Used files generated from first tutorial")
+>>> else:
+>>>    print("Please run first tutorial to generate data set")
+
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+In this tutorial, I will show how to transform documents from one vector representation
+into another. This process serves two goals:
+
+1. To bring out hidden structure in the corpus, discover relationships between
+   words and use them to describe the documents in a new and
+   (hopefully) more semantic way.
+2. To make the document representation more compact. This both improves efficiency
+   (new representation consumes less resources) and efficacy (marginal data
+   trends are ignored, noise-reduction).
+
 Creating a transformation
 ++++++++++++++++++++++++++
 

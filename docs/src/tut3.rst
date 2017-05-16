@@ -36,6 +36,188 @@ LSI space:
 
 >>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
 
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim_dev import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
+Now suppose a user typed in the query
+
+>>> from gensim import corpora, models, similarities
+>>> dictionary = corpora.Dictionary.load('/tmp/deerwester.dict')
+>>> corpus = corpora.MmCorpus('/tmp/deerwester.mm') # comes from the first tutorial, "From strings to vectors"
+>>> print(corpus)
+MmCorpus(9 documents, 12 features, 28 non-zero entries)
+
+To follow Deerwester's example, we first use this tiny corpus to define a 2-dimensional
+LSI space:
+
+>>> lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+
 Now suppose a user typed in the query `"Human computer interaction"`. We would
 like to sort our nine corpus documents in decreasing order of relevance to this query.
 Unlike modern search engines, here we only concentrate on a single aspect of possible

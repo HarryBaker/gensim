@@ -129,6 +129,286 @@ recommended client splits them into smaller chunks before uploading them to the 
 
 >>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
 
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim_dev import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
+
+
+>>> from gensim import utils
+>>> texts = ["Human machine interface for lab abc computer applications",
+>>>          "A survey of user opinion of computer system response time",
+>>>          "The EPS user interface management system",
+>>>          "System and human system engineering testing of EPS",
+>>>          "Relation of user perceived response time to error measurement",
+>>>          "The generation of random binary unordered trees",
+>>>          "The intersection graph of paths in trees",
+>>>          "Graph minors IV Widths of trees and well quasi ordering",
+>>>          "Graph minors A survey"]
+>>> corpus = [{'id': 'doc_%i' % num, 'tokens': utils.simple_preprocess(text)}
+>>>           for num, text in enumerate(texts)]
+
+Since corpora are allowed to be arbitrarily large, it is
+recommended client splits them into smaller chunks before uploading them to the server:
+
+>>> utils.upload_chunked(server, corpus, chunksize=1000) # send 1k docs at a time
+
 Wait, upload what, where?
 -------------------------
 
