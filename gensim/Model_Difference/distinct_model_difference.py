@@ -1,13 +1,13 @@
 from gensim import models
 
 from random import sample
-from gensim.matutils import kullback_leibler, hellinger, jaccard_set
+from gensim.matutils import kullback_leibler, hellinger, jaccard_set, WMD
 from gensim.models.ldamulticore import LdaMulticore
 import numpy as np
 
 
 
-def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, topw=10, with_annotation=True):
+def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, topw=10, with_annotation=True, model=None):
     """
     Calculate difference topic2topic between two `LdaMulticore` models
 
@@ -36,7 +36,8 @@ def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, to
 
     distances = {"kulback_leibler": kullback_leibler,
                  "hellinger": hellinger,
-                 "jaccard": jaccard_set}
+                 "jaccard": jaccard_set,
+                 "WMD" : WMD}
 
     assert distance in distances, "Incorrect distance, valid only {}".format(", ".join("`{}`".format(x)
                                                                                        for x in distances.keys()))
@@ -49,7 +50,7 @@ def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, to
 
     fst_topics, snd_topics = None, None
 
-    if distance == "jaccard":
+    if distance == "jaccard" or distance == 'WMD':
         d1 = fst_topics = [{w for (w, _) in m1.show_topic(topic, topn=num_words)} for topic in range(t1_size)]
         d2 = snd_topics = [{w for (w, _) in m2.show_topic(topic, topn=num_words)} for topic in range(t2_size)]
 
@@ -57,8 +58,10 @@ def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, to
 
     for topic1 in range(t1_size):
         for topic2 in range(t2_size):
-
-            z[topic1][topic2] = distance_func(d1[topic1], d2[topic2])
+            if distance == 'WMD':
+                z[topic1][topic2] = distance_func(d1[topic1], d2[topic2], model)
+            else:
+                z[topic1][topic2] = distance_func(d1[topic1], d2[topic2])
 
     z /= np.max(z)
 
@@ -88,11 +91,12 @@ def topic2topic_difference(m1, m2, distance="kulback_leibler", num_words=100, to
 
 
 
-def score_difference(lda1, lda2, distance="kulback_leibler", num_words=100):
+def score_difference(lda1, lda2, distance="kulback_leibler", num_words=100,model=None):
     topic_similarity_array = topic2topic_difference(lda1, lda2,
                                                     distance=distance,
                                                     num_words=num_words,
-                                                    with_annotation=False)
+                                                    with_annotation=False,
+                                                    model=model)
     sorted_array = sort_topic_similarity(topic_similarity_array)
     topic_pairs_similarity = pair_topics(topic_similarity_array, sorted_array,
                                          sort_flag=True)
@@ -190,7 +194,6 @@ def match_topics_bijection(pair_list, sort_array, topic_similarity_array):
             included_topics.append(topic2)
             match_topics.append(most_similar_pair)
     return match_topics
-
 
 def bijection_score(bijections):
     total_score = 0

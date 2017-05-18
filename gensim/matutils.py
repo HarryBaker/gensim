@@ -532,6 +532,11 @@ def jaccard(vec1, vec2):
 def jaccard_set(set1, set2):
     return 1. - float(len(set1 & set2)) / float(len(set1 | set2))
 
+def WMD(vec1, vec2, model):
+    distance = model.wmdistance(vec1, vec2)
+    return distance
+
+
 
 def dirichlet_expectation(alpha):
     """
